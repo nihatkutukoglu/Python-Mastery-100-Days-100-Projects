@@ -15,14 +15,14 @@ Bu 100 günlük kurs, Python programlamanın farklı alanlarını kapsayan modü
 #### Bölüm 1: Python Temelleri (1. Hafta) (Tamamlandı ✅)
 * **Odak Noktaları:** Python'a Giriş, Değişkenler, Veri Tipleri, Koşullu İfadeler, Döngüler, Fonksiyonlar, Listeler.
 * **Projeler:**
-    * 1. Gün: Hızlı Başlangıç: Sıfırdan Python öğrenin ✅
-    * 1. Gün: Hoş geldin mesajı üretici: print ve "Hello, World" ✅
-    * 1. Gün: Kişisel karşılama programı: değişkenler ve veri tipleri ✅
-    * 4. Gün: Basit hesap makinesi: kullanıcı girişi ve string biçimlendirme ✅
-    * 5. Gün: Sayı karşılaştırıcı: if-else koşulları ✅
-    * 6. Gün: Geri sayım sayacı: döngüler (for ve while) ✅
-    * 7. Gün: Basit matematik sınavı: fonksiyonlar ✅
-    * 8. Gün: Alışveriş listesi uygulaması: listeler ✅
+     1. Gün: Hızlı Başlangıç: Sıfırdan Python öğrenin ✅
+     2. Gün: Hoş geldin mesajı üretici: print ve "Hello, World" ✅
+     3. Gün: Kişisel karşılama programı: değişkenler ve veri tipleri ✅
+     4. Gün: Basit hesap makinesi: kullanıcı girişi ve string biçimlendirme ✅
+     5. Gün: Sayı karşılaştırıcı: if-else koşulları ✅
+     6. Gün: Geri sayım sayacı: döngüler (for ve while) ✅
+     7. Gün: Basit matematik sınavı: fonksiyonlar ✅
+     8. Gün: Alışveriş listesi uygulaması: listeler ✅
 
 
 #### Bölüm 2: Orta Düzey Python (2. Hafta) (Tamamlandı ✅)
