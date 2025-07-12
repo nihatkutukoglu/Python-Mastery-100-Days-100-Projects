@@ -23,7 +23,7 @@ Bu 100 günlük kurs, Python programlamanın farklı alanlarını kapsayan modü
     * 6. Gün: Geri sayım sayacı: döngüler (for ve while) ✅
     * 7. Gün: Basit matematik sınavı: fonksiyonlar ✅
     * 8. Gün: Alışveriş listesi uygulaması: listeler ✅
-* (Dosyalar: [Bölüm 1 Projeleri](./Bolum01-PythonTemelleri/))
+
 
 #### Bölüm 2: Orta Düzey Python (2. Hafta) (Tamamlandı ✅)
 * **Odak Noktaları:** Sözlükler, Demetler ve Kümeler, Dosya İşlemleri, Hata Yakalama (try-except), Fonksiyonlardan Değer Döndürme, List Comprehensions, Modüller ve Kütüphaneler.
@@ -35,7 +35,7 @@ Bu 100 günlük kurs, Python programlamanın farklı alanlarını kapsayan modü
     * 13. Gün: Sıcaklık dönüştürücü: geri dönen fonksiyonlar ✅
     * 14. Gün: Not yöneticisi: liste kavramaları (list comprehensions) ✅
     * 15. Gün: Rastgele şifre üretici: modüller ve kütüphaneler ✅
-* (Dosyalar: [Bölüm 2 Projeleri](./Bolum02-OrtaDuzeyPython/))
+
 
 #### Bölüm 3: Veri ile Çalışmak (3. Hafta)
 * **Odak Noktaları:** Dosya Okuma/Yazma, CSV ve JSON Dosyaları, Temel API Kullanımı, Tarih ve Zaman, Web Kazıma (Web Scraping).
@@ -47,7 +47,7 @@ Bu 100 günlük kurs, Python programlamanın farklı alanlarını kapsayan modü
     * 20. Gün: Hava durumu uygulaması: temel API kullanımı
     * 21. Gün: Etkinlik geri sayımı: tarih ve zaman
     * 22. Gün: Vikipedi makalesi toplayıcı: web kazıma (scraping)
-* (Dosyalar: [Bölüm 3 Projeleri](./Bolum03-VeriIleCalismak/))
+
 
 #### Bölüm 4: Nesne Tabanlı Programlama (OOP) (4. Hafta)
 * **Odak Noktaları:** Sınıflar ve Nesneler, Yapıcılar ve Metotlar, Kalıtım (Inheritance), Çok Biçimlilik (Polymorphism), Kapsülleme (Encapsulation), Statik ve Sınıf Metotları, OOP Final Projesi.
@@ -59,7 +59,7 @@ Bu 100 günlük kurs, Python programlamanın farklı alanlarını kapsayan modü
     * 27. Gün: Güvenli kullanıcı profili: kapsülleme (encapsulation)
     * 28. Gün: Stok yönetimi: statik ve sınıf metotları
     * 29. Gün: Mini ATM makinesi: final OOP projesi
-* (Dosyalar: [Bölüm 4 Projeleri](./Bolum04-NesneTabanliProgramlama/))
+
 
 #### Bölüm 5: Grafik Arayüz Programlama (GUI) (5. Hafta)
 * **Odak Noktaları:** Tkinter Temelleri, Butonlar ve Olaylar, Giriş Alanları, Canvas Widget'ları, Mesaj Kutuları, Gelişmiş Widget'lar, GUI Final Projesi.
@@ -71,7 +71,7 @@ Bu 100 günlük kurs, Python programlamanın farklı alanlarını kapsayan modü
     * 34. Gün: Giriş sistemi: mesaj kutuları
     * 35. Gün: Yapılacaklar listesi GUI: gelişmiş widget'lar
     * 36. Gün: Harcama takipçisi: GUI final projesi
-* (Dosyalar: [Bölüm 5 Projeleri](./Bolum05-GrafikArayuzProgramlama/))
+
 
 #### Bölüm 6: Python ile Web Geliştirme (6. Hafta)
 * **Odak Noktaları:** Flask Temelleri, Yollar ve Şablonlar, Formlar ve Kullanıcı Girişi, Veritabanı Bağlantısı, REST API'ler, Flask Uygulaması Yayınlama, Flask Final Projesi (Portföy Web Sitesi).
@@ -83,7 +83,7 @@ Bu 100 günlük kurs, Python programlamanın farklı alanlarını kapsayan modü
     * 41. Gün: Mini hava durumu API'si: REST API'ler
     * 42. Gün: Flask uygulamasını yayınla
     * 43. Gün: Portföy web sitesi: Flask final projesi
-* (Dosyalar: [Bölüm 6 Projeleri](./Bolum06-PythonIleWebGelistirme/))
+
 
 #### Bölüm 7: Veri Bilimi Temelleri (7. Hafta)
 * **Odak Noktaları:** Matris Hesaplayıcı (NumPy), Veri Temizleyici (Pandas), Grafik Çizici (Matplotlib), Veri Analizi, Veri Çekme, Gösterge Paneli Oluşturma.
@@ -95,7 +95,7 @@ Bu 100 günlük kurs, Python programlamanın farklı alanlarını kapsayan modü
     * 48. Gün: Sıcaklık eğrisi çizimi
     * 49. Gün: Hisse senedi takipçisi: veri çekme
     * 50. Gün: COVID-19 gösterge paneli: final projesi
-* (Dosyalar: [Bölüm 7 Projeleri](./Bolum07-VeriBilimiTemelleri/))
+
 
 #### Bölüm 8: Orta Düzey Projeler (50-60. Günler)
 * **Odak Noktaları:** Çeşitli problem çözme ve uygulama geliştirme senaryoları.
@@ -111,7 +111,7 @@ Bu 100 günlük kurs, Python programlamanın farklı alanlarını kapsayan modü
     * 59. Gün: Pomodoro zamanlayıcı
     * 60. Gün: Markdown -> HTML dönüştürücü
     * 61. Gün: Kişisel günlük uygulaması
-* (Dosyalar: [Bölüm 8 Projeleri](./Bolum08-OrtaDuzeyProjeler/))
+
 
 #### Bölüm 9: İleri Orta Seviye Projeler (61-70. Günler)
 * **Odak Noktaları:** Daha karmaşık senaryolar, harici API entegrasyonları ve otomasyon.
@@ -126,7 +126,7 @@ Bu 100 günlük kurs, Python programlamanın farklı alanlarını kapsayan modü
     * 69. Gün: Görev planlayıcı
     * 70. Gün: Döviz çevirici
     * 71. Gün: Veri görselleştirici
-* (Dosyalar: [Bölüm 9 Projeleri](./Bolum09-IleriOrtaSeviyeProjeler/))
+
 
 #### Bölüm 10: Yapay Zeka & Makine Öğrenimi Projeleri (71-80. Günler)
 * **Odak Noktaları:** Yapay zeka ve makine öğrenimi algoritmalarının temel uygulamaları, doğal dil işleme ve görüntü işleme.
@@ -141,12 +141,12 @@ Bu 100 günlük kurs, Python programlamanın farklı alanlarını kapsayan modü
     * 79. Gün: Nesne tanıma uygulaması
     * 80. Gün: Dil çeviri aracı
     * 81. Gün: Sahte haber tespit edici
-* (Dosyalar: [Bölüm 10 Projeleri](./Bolum10-YapayZekaMakineOgrenimiProjeleri/))
+
 
 #### Bölüm 11: Python ile Makine Öğrenimi
 * **Odak Noktaları:** Makine öğrenimi algoritmaları ve kütüphaneleriyle derinlemesine çalışma.
 * **Projeler:**
     * (Bu bölümün proje detayları ilerledikçe eklenecektir.)
-* (Dosyalar: [Bölüm 11 Projeleri](./Bolum11-PythonIleMakineOgrenimi/))
+
 
 ---
