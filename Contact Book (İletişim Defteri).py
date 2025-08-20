@@ -7,15 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1wgTdoLfAHH0clfAu90P2-zqDculCOHAg
 """
 
-# Contact Book (İletişim Defteri)
 
-# Adım 1: Boş bir iletişim defteri sözlüğü başlat.
-# 'contacts' adında boş bir sözlük oluşturulur. Tüm kişiler bu sözlükte saklanacak.
-# Anahtar olarak kişinin adı, değer olarak ise o kişinin telefon ve e-posta bilgilerini içeren başka bir sözlük kullanılacak.
 contacts = {}
 
-# Adım 2: Menüyü gösteren fonksiyon.
-# show_menu() fonksiyonu, kullanıcıya sunulacak seçenekleri (ekle, görüntüle, ara, düzenle, sil, çıkış) ekrana yazdırır.
+
 def show_menu():
   print("\n--- İletişim Defteri Menüsü ---")
   print("1. Kişi Ekle")
@@ -25,10 +20,7 @@ def show_menu():
   print("5. Kişi Sil")
   print("6. Çıkış")
 
-# Adım 3: Kişi ekleme fonksiyonu.
-# add_contact() fonksiyonu, kullanıcıdan kişi adı, telefon numarası ve e-posta adresini alır.
-# Aldığı bilgileri 'contacts' sözlüğüne yeni bir giriş olarak ekler.
-# Kişi başarıyla eklendiğinde onay mesajı verir.
+
 def add_contact():
   name = input("Kişi adını girin: ")
   phone = input("Kişi numarasını girin: ")
@@ -37,10 +29,7 @@ def add_contact():
   contacts[name] = {"phone": phone, "email": email}
   print(f"'{name}' kişisi iletişim defterinize başarıyla eklendi!")
 
-# Adım 4: Tüm kişileri görüntüleme fonksiyonu.
-# view_contacts() fonksiyonu, 'contacts' sözlüğünün boş olup olmadığını kontrol eder.
-# Eğer boş değilse, tüm kişilerin adını, telefonunu ve e-postasını listeleyerek ekrana yazdırır.
-# Eğer boşsa, "İletişim defteriniz boş." mesajını gösterir.
+
 def view_contacts():
   if contacts: # Eğer 'contacts' sözlüğü boş değilse (içinde eleman varsa)
     print("\n--- Kişi Listesi ---")
@@ -53,10 +42,7 @@ def view_contacts():
   else:
     print("İletişim defteriniz boş.")
 
-# Adım 5: Kişi arama fonksiyonu.
-# search_contact() fonksiyonu, kullanıcıdan aranacak kişinin adını alır.
-# Eğer kişi 'contacts' sözlüğünde bulunuyorsa, o kişinin detaylarını ekrana yazdırır.
-# Bulunamıyorsa, "Kişi bulunamadı." mesajını gösterir.
+
 def search_contact():
   name = input("Aramak istediğiniz kişinin adını girin: ")
   if name in contacts: # Eğer 'name' anahtarı 'contacts' içinde varsa
@@ -67,11 +53,7 @@ def search_contact():
   else:
     print(f"'{name}' kişisi iletişim defterinizde bulunamadı.")
 
-# Adım 6: Kişi düzenleme fonksiyonu.
-# edit_contact() fonksiyonu, kullanıcıdan düzenlenecek kişinin adını alır.
-# Eğer kişi bulunursa, kullanıcıdan yeni telefon numarası ve e-posta adresi istenir.
-# Bu bilgilerle mevcut kişinin detayları güncellenir.
-# Bulunamıyorsa, "Kişi bulunamadı." mesajını gösterir.
+
 def edit_contact():
   name = input("Düzenlemek istediğiniz kişinin adını girin: ")
   if name in contacts:
@@ -82,10 +64,7 @@ def edit_contact():
   else:
     print(f"'{name}' kişisi iletişim defterinizde bulunamadı.")
 
-# Adım 7: Kişi silme fonksiyonu.
-# delete_contact() fonksiyonu, kullanıcıdan silinecek kişinin adını alır.
-# Eğer kişi bulunursa, 'contacts' sözlüğünden o kişi silinir.
-# Bulunamıyorsa, "Kişi bulunamadı." mesajını gösterir.
+
 def delete_contact():
   name = input("Silmek istediğiniz kişinin adını girin: ")
   if name in contacts:
@@ -94,11 +73,7 @@ def delete_contact():
   else:
     print(f"'{name}' kişisi iletişim defterinizde bulunamadı.")
 
-# Adım 8: Ana Program Döngüsü.
-# Bu kısım, uygulamanın sürekli çalışmasını sağlar.
-# Kullanıcıdan bir seçim yapmasını ister, seçime göre ilgili fonksiyonu çağırır.
-# Kullanıcı "6" (Çıkış) seçeneğini seçene kadar döngü devam eder.
-while True: # Sonsuz bir döngü başlatır
+
   show_menu() # Menüyü gösterir
   choice = input("Seçiminizi girin (1-6): ") # Kullanıcıdan seçim alır
 
