@@ -1,36 +1,4 @@
-"""
-Üniversite Topluluğu Üye Kayıt Uygulaması (Tkinter + SQLite)
-Dosya: tkinter_club_members.py
 
-Amaç:
-- Üniversite topluluğu için üye kaydı yapmak ve yönetmek.
-- CRUD (Ekle, Listele, Güncelle, Sil) + Arama/Filtreleme + CSV Dışa Aktarma.
-
-Tablo: members
-- id            INTEGER PRIMARY KEY AUTOINCREMENT
-- student_no    TEXT NOT NULL UNIQUE
-- name          TEXT NOT NULL
-- surname       TEXT NOT NULL
-- email         TEXT UNIQUE
-- phone         TEXT
-- faculty       TEXT
-- department    TEXT
-- class_year    INTEGER
-- role          TEXT    -- ('Üye','Gönüllü','Yönetim','Başkan')
-- status        TEXT    -- ('Aktif','Pasif')
-- join_date     TEXT    -- 'YYYY-MM-DD'
-- consent       INTEGER -- 0/1 KVKK onayı
-- notes         TEXT
-
-Çalıştırma:
-1) Python 3 ile bu dosyayı çalıştırın: python tkinter_club_members.py
-2) Veritabanı dosyası otomatik olarak Masaüstü'ne (Desktop) kaydedilir: club_members.db
-
-Notlar:
-- Tarih alanı için basit metin girişi (YYYY-MM-DD). Boş bırakırsanız bugünün tarihi yazılır.
-- E-posta ve öğrenci numarası benzersiz (UNIQUE). Çakışmalarda uyarı verir.
-- Menüden CSV dışa aktarma yapabilirsiniz.
-"""
 
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
@@ -461,3 +429,4 @@ if __name__ == "__main__":
     init_db()
     app = ClubApp()
     app.mainloop()
+
